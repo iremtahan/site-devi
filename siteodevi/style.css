@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #e1f508;
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+.ilanlar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.ilan {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+}
+
+.ilan img {
+    width: 100%;
+    height: auto;
+}
+
+.ilan a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #e1f508;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #e1f508;
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
